@@ -1,0 +1,77 @@
+#example .another.example {
+    margin-top: 0em;
+    padding-top: 2em;
+}
+
+#example .example {
+    margin: 2em 0em;
+    padding: 2em 0em;
+    position: relative;
+    -webkit-tap-highlight-color: transparent;
+}
+
+#example .another.example i.code {
+    top: -0.5em;
+}
+
+.ui.feed:last-child {
+    margin-bottom: 0;
+}
+.ui.feed {
+    font-size: 1rem;
+}
+.ui.feed {
+    margin: 1em 0;
+}
+
+.ui.feed>.event:last-child {
+    padding-bottom: 0;
+}
+
+.ui.feed>.event:first-child {
+    border-top: 0;
+    padding-top: 0;
+}
+.ui.feed>.event {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    width: 100%;
+    padding: .21428571rem 0;
+    margin: 0;
+    background: 0 0;
+    border-top: none;
+}
+
+
+.ui.feed>.event:last-child>.content {
+    padding-bottom: 0;
+}
+.ui.feed>.event>.label+.content {
+    margin: .5em 0 .35714286em 1.14285714em;
+}
+.ui.feed>.event>.content {
+    display: block;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    -ms-flex-item-align: stretch;
+    align-self: stretch;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+.ui.feed>.event>.content .summary>.date {
+    display: inline-block;
+    float: none;
+    font-weight: 400;
+    font-size: .85714286em;
+    font-style: normal;
+    margin: 0 0 0 .5em;
+    padding: 0;
+    color: rgba(0,0,0,.4);
+}
